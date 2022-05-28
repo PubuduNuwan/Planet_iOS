@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35192FBA3DA31BE9B39010F8 /* Pods_PlannetApp_PlannetAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511C21AF8A98C7FE66FBE2B1 /* Pods_PlannetApp_PlannetAppUITests.framework */; };
+		76C79AF37BF583C1104F622B /* Pods_PlannetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7027CE585B6C694C8B0DFFCF /* Pods_PlannetApp.framework */; };
+		82FEA73B52B3F9B543A422CB /* Pods_PlannetAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FC757D47077732E081EA64 /* Pods_PlannetAppTests.framework */; };
+		CE7D39A728411113001BB12A /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D39A628411113001BB12A /* PlanetTableViewCell.swift */; };
+		CE7D39A9284199CF001BB12A /* UIImage+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D39A8284199CF001BB12A /* UIImage+Action.swift */; };
+		CE7D39B02841B28F001BB12A /* PlanetServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D39AF2841B28F001BB12A /* PlanetServiceResponse.swift */; };
+		CE7D39B22841DD68001BB12A /* PlanetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D39B12841DD68001BB12A /* PlanetInfoViewController.swift */; };
+		CE7D39B42841DD8B001BB12A /* PlanetInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D39B32841DD8B001BB12A /* PlanetInfoViewModel.swift */; };
 		CEB939542840632D0047141C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB939532840632D0047141C /* AppDelegate.swift */; };
 		CEB939562840632D0047141C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB939552840632D0047141C /* SceneDelegate.swift */; };
-		CEB939582840632D0047141C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB939572840632D0047141C /* ViewController.swift */; };
+		CEB939582840632D0047141C /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB939572840632D0047141C /* PlanetViewController.swift */; };
 		CEB9395B2840632D0047141C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB939592840632D0047141C /* Main.storyboard */; };
 		CEB9395D284063300047141C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB9395C284063300047141C /* Assets.xcassets */; };
 		CEB93960284063300047141C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB9395E284063300047141C /* LaunchScreen.storyboard */; };
 		CEB9396B284063300047141C /* PlannetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9396A284063300047141C /* PlannetAppTests.swift */; };
 		CEB93975284063300047141C /* PlannetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB93974284063300047141C /* PlannetAppUITests.swift */; };
 		CEB93977284063300047141C /* PlannetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB93976284063300047141C /* PlannetAppUITestsLaunchTests.swift */; };
+		CEB9398D28406D820047141C /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9398C28406D820047141C /* Net.swift */; };
+		CEB9398F28406DD50047141C /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9398E28406DD50047141C /* Url.swift */; };
+		CEB939912840700F0047141C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB939902840700F0047141C /* Planet.swift */; };
+		CEB93993284070DB0047141C /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB93992284070DB0047141C /* PlanetViewModel.swift */; };
+		CEB93995284077F40047141C /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB93994284077F40047141C /* PlanetService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E1DBA9DBB70587B580EBA2 /* Pods-PlannetApp-PlannetAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetApp-PlannetAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PlannetApp-PlannetAppUITests/Pods-PlannetApp-PlannetAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		511C21AF8A98C7FE66FBE2B1 /* Pods_PlannetApp_PlannetAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannetApp_PlannetAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF482D5835ADD5204755C78 /* Pods-PlannetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetApp.debug.xcconfig"; path = "Target Support Files/Pods-PlannetApp/Pods-PlannetApp.debug.xcconfig"; sourceTree = "<group>"; };
+		67FC757D47077732E081EA64 /* Pods_PlannetAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannetAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7027CE585B6C694C8B0DFFCF /* Pods_PlannetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92623516DD95AD36BA04E1A6 /* Pods-PlannetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetApp.release.xcconfig"; path = "Target Support Files/Pods-PlannetApp/Pods-PlannetApp.release.xcconfig"; sourceTree = "<group>"; };
+		BF5DB1EE3B3938F4B3BC48CC /* Pods-PlannetAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PlannetAppTests/Pods-PlannetAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7D39A628411113001BB12A /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
+		CE7D39A8284199CF001BB12A /* UIImage+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Action.swift"; sourceTree = "<group>"; };
+		CE7D39AF2841B28F001BB12A /* PlanetServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetServiceResponse.swift; sourceTree = "<group>"; };
+		CE7D39B12841DD68001BB12A /* PlanetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoViewController.swift; sourceTree = "<group>"; };
+		CE7D39B32841DD8B001BB12A /* PlanetInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoViewModel.swift; sourceTree = "<group>"; };
 		CEB939502840632D0047141C /* PlannetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlannetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB939532840632D0047141C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB939552840632D0047141C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEB939572840632D0047141C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB939572840632D0047141C /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
 		CEB9395A2840632D0047141C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB9395C284063300047141C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB9395F284063300047141C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +74,13 @@
 		CEB93970284063300047141C /* PlannetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB93974284063300047141C /* PlannetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetAppUITests.swift; sourceTree = "<group>"; };
 		CEB93976284063300047141C /* PlannetAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannetAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEB9398C28406D820047141C /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		CEB9398E28406DD50047141C /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		CEB939902840700F0047141C /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		CEB93992284070DB0047141C /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		CEB93994284077F40047141C /* PlanetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetService.swift; sourceTree = "<group>"; };
+		E3156C48B2DE5CFF6529D1C1 /* Pods-PlannetAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetAppTests.release.xcconfig"; path = "Target Support Files/Pods-PlannetAppTests/Pods-PlannetAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F91DC063A04D69A652EF947D /* Pods-PlannetApp-PlannetAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannetApp-PlannetAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlannetApp-PlannetAppUITests/Pods-PlannetApp-PlannetAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C79AF37BF583C1104F622B /* Pods_PlannetApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FEA73B52B3F9B543A422CB /* Pods_PlannetAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35192FBA3DA31BE9B39010F8 /* Pods_PlannetApp_PlannetAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75370F27B472AFB8981D50AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FF482D5835ADD5204755C78 /* Pods-PlannetApp.debug.xcconfig */,
+				92623516DD95AD36BA04E1A6 /* Pods-PlannetApp.release.xcconfig */,
+				F91DC063A04D69A652EF947D /* Pods-PlannetApp-PlannetAppUITests.debug.xcconfig */,
+				14E1DBA9DBB70587B580EBA2 /* Pods-PlannetApp-PlannetAppUITests.release.xcconfig */,
+				BF5DB1EE3B3938F4B3BC48CC /* Pods-PlannetAppTests.debug.xcconfig */,
+				E3156C48B2DE5CFF6529D1C1 /* Pods-PlannetAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE7D39AE2841B268001BB12A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D39AF2841B28F001BB12A /* PlanetServiceResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		CEB939472840632D0047141C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				CEB93969284063300047141C /* PlannetAppTests */,
 				CEB93973284063300047141C /* PlannetAppUITests */,
 				CEB939512840632D0047141C /* Products */,
+				75370F27B472AFB8981D50AC /* Pods */,
+				D8066805F27261F5E3DD52CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +157,17 @@
 		CEB939522840632D0047141C /* PlannetApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEB939532840632D0047141C /* AppDelegate.swift */,
-				CEB939552840632D0047141C /* SceneDelegate.swift */,
-				CEB939572840632D0047141C /* ViewController.swift */,
-				CEB939592840632D0047141C /* Main.storyboard */,
 				CEB9395C284063300047141C /* Assets.xcassets */,
-				CEB9395E284063300047141C /* LaunchScreen.storyboard */,
-				CEB93961284063300047141C /* Info.plist */,
+				CEB9398428406A9E0047141C /* Controller */,
+				CEB9398328406A920047141C /* Model */,
+				CEB9398B28406AE60047141C /* ModelView */,
+				CEB9398A28406AD90047141C /* Net */,
+				CE7D39AE2841B268001BB12A /* Response */,
+				CEB9398528406AA90047141C /* Service */,
+				CEB9398728406ABF0047141C /* StoryBoard */,
+				CEB9398828406ACA0047141C /* Support */,
+				CEB9398928406AD10047141C /* Util */,
+				CEB9398628406AB70047141C /* View */,
 			);
 			path = PlannetApp;
 			sourceTree = "<group>";
@@ -127,6 +189,94 @@
 			path = PlannetAppUITests;
 			sourceTree = "<group>";
 		};
+		CEB9398328406A920047141C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB939902840700F0047141C /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEB9398428406A9E0047141C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEB939572840632D0047141C /* PlanetViewController.swift */,
+				CE7D39B12841DD68001BB12A /* PlanetInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEB9398528406AA90047141C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEB93994284077F40047141C /* PlanetService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEB9398628406AB70047141C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D39A628411113001BB12A /* PlanetTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEB9398728406ABF0047141C /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CEB939592840632D0047141C /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CEB9398828406ACA0047141C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9395E284063300047141C /* LaunchScreen.storyboard */,
+				CEB93961284063300047141C /* Info.plist */,
+				CEB939532840632D0047141C /* AppDelegate.swift */,
+				CEB939552840632D0047141C /* SceneDelegate.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		CEB9398928406AD10047141C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D39A8284199CF001BB12A /* UIImage+Action.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CEB9398A28406AD90047141C /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9398C28406D820047141C /* Net.swift */,
+				CEB9398E28406DD50047141C /* Url.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		CEB9398B28406AE60047141C /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB93992284070DB0047141C /* PlanetViewModel.swift */,
+				CE7D39B32841DD8B001BB12A /* PlanetInfoViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		D8066805F27261F5E3DD52CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7027CE585B6C694C8B0DFFCF /* Pods_PlannetApp.framework */,
+				511C21AF8A98C7FE66FBE2B1 /* Pods_PlannetApp_PlannetAppUITests.framework */,
+				67FC757D47077732E081EA64 /* Pods_PlannetAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB9397A284063300047141C /* Build configuration list for PBXNativeTarget "PlannetApp" */;
 			buildPhases = (
+				9A89D8D207DFC9411C866075 /* [CP] Check Pods Manifest.lock */,
 				CEB9394C2840632D0047141C /* Sources */,
 				CEB9394D2840632D0047141C /* Frameworks */,
 				CEB9394E2840632D0047141C /* Resources */,
+				CA73A451C8F9F1467744D0EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB9397D284063300047141C /* Build configuration list for PBXNativeTarget "PlannetAppTests" */;
 			buildPhases = (
+				B403907DFDB4B9560D3F753A /* [CP] Check Pods Manifest.lock */,
 				CEB93962284063300047141C /* Sources */,
 				CEB93963284063300047141C /* Frameworks */,
 				CEB93964284063300047141C /* Resources */,
@@ -169,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB93980284063300047141C /* Build configuration list for PBXNativeTarget "PlannetAppUITests" */;
 			buildPhases = (
+				E34B6B06FDDA4AFD78CF237F /* [CP] Check Pods Manifest.lock */,
 				CEB9396C284063300047141C /* Sources */,
 				CEB9396D284063300047141C /* Frameworks */,
 				CEB9396E284063300047141C /* Resources */,
+				22A07160EF1F43FDC24F9482 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +408,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A07160EF1F43FDC24F9482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannetApp-PlannetAppUITests/Pods-PlannetApp-PlannetAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannetApp-PlannetAppUITests/Pods-PlannetApp-PlannetAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlannetApp-PlannetAppUITests/Pods-PlannetApp-PlannetAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A89D8D207DFC9411C866075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlannetApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B403907DFDB4B9560D3F753A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlannetAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA73A451C8F9F1467744D0EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannetApp/Pods-PlannetApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannetApp/Pods-PlannetApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlannetApp/Pods-PlannetApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34B6B06FDDA4AFD78CF237F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlannetApp-PlannetAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEB9394C2840632D0047141C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB939582840632D0047141C /* ViewController.swift in Sources */,
+				CEB93993284070DB0047141C /* PlanetViewModel.swift in Sources */,
+				CEB939582840632D0047141C /* PlanetViewController.swift in Sources */,
+				CE7D39B42841DD8B001BB12A /* PlanetInfoViewModel.swift in Sources */,
+				CE7D39B02841B28F001BB12A /* PlanetServiceResponse.swift in Sources */,
+				CE7D39B22841DD68001BB12A /* PlanetInfoViewController.swift in Sources */,
+				CE7D39A728411113001BB12A /* PlanetTableViewCell.swift in Sources */,
 				CEB939542840632D0047141C /* AppDelegate.swift in Sources */,
+				CEB93995284077F40047141C /* PlanetService.swift in Sources */,
 				CEB939562840632D0047141C /* SceneDelegate.swift in Sources */,
+				CEB939912840700F0047141C /* Planet.swift in Sources */,
+				CE7D39A9284199CF001BB12A /* UIImage+Action.swift in Sources */,
+				CEB9398D28406D820047141C /* Net.swift in Sources */,
+				CEB9398F28406DD50047141C /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +700,7 @@
 		};
 		CEB9397B284063300047141C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF482D5835ADD5204755C78 /* Pods-PlannetApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +729,7 @@
 		};
 		CEB9397C284063300047141C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92623516DD95AD36BA04E1A6 /* Pods-PlannetApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +758,7 @@
 		};
 		CEB9397E284063300047141C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5DB1EE3B3938F4B3BC48CC /* Pods-PlannetAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +779,7 @@
 		};
 		CEB9397F284063300047141C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3156C48B2DE5CFF6529D1C1 /* Pods-PlannetAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +800,7 @@
 		};
 		CEB93981284063300047141C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91DC063A04D69A652EF947D /* Pods-PlannetApp-PlannetAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +819,7 @@
 		};
 		CEB93982284063300047141C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E1DBA9DBB70587B580EBA2 /* Pods-PlannetApp-PlannetAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
