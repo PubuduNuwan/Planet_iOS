@@ -44,6 +44,7 @@ class Net {
     }
     var session = Alamofire.Session.default
     
+    
     init(url : String,method : HTTPMethod,parameters : Parameters? = nil) {
         self.url = url
         self.method = method

@@ -27,8 +27,6 @@ class PlanetViewController: UIViewController, UIScrollViewDelegate {
     
     private func bindTableView() {
         
-        planetsTableView.register(UINib(nibName: "ProductTableViewCell", bundle: nil), forCellReuseIdentifier: "cellId")
-        
         planetViewModel.items.bind(to: planetsTableView.rx.items(cellIdentifier: "planet_table_view_cell", cellType: PlanetTableViewCell.self)) { (row,planet,cell) in
             cell.planet = planet
             if row == self.planetViewModel.itemsCount - 2 {
